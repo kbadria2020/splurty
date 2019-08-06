@@ -5,7 +5,7 @@ default: &default
   username: postgres
   password: password
   host: localhost
-
+ 
 development:
   <<: *default
   database: splurty_development
@@ -19,3 +19,4 @@ production:
   database: splurty_production
   # username: splurty
   # password: <%= ENV['SPLURTY_DATABASE_PASSWORD'] %>
+  
